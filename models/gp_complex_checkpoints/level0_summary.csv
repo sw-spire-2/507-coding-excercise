@@ -1,0 +1,2 @@
+Level,Kernel,Params,LML,BIC,RMSE,R2,Optimized Kernel
+0,RQ,4,1405.272072444027,-2782.9131237721253,0.0009438112139411067,0.9982827861943713,"100**2 * RationalQuadratic(alpha=0.283, length_scale=19.2) + WhiteKernel(noise_level=0.000844)"

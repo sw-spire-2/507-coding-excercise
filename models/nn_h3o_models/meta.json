@@ -1,0 +1,18 @@
+{
+  "hidden_layers": [
+    128,
+    64
+  ],
+  "activation": "relu",
+  "l2_weight": 0.0,
+  "dropout": 0.0,
+  "lr": 0.001,
+  "epochs": 2000,
+  "batch_size": 128,
+  "patience": 100,
+  "seed": 507,
+  "inverse_transform": true,
+  "description": "NN regression on H3O+ with fixed splits",
+  "saved_at": "2025-10-24T05:19:58.915923",
+  "num_models": 4
+}

@@ -1,0 +1,6 @@
+{
+  "seed": 507,
+  "size": 1000,
+  "description": "train 4 GP models with sklearn's basic kernels",
+  "saved_at": "2025-10-22T23:23:29.713963"
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Level-2 complexity expansion for C*(RQ)+White kernel",
+  "seed": 507,
+  "n_restarts": 6,
+  "levels": 2,
+  "base_kernel": "RQ",
+  "size_train": 1000,
+  "source": "models/basic_gp_models",
+  "time": "2025-10-23T09:05:17.974568",
+  "saved_at": "2025-10-23T09:05:18.096885"
+}

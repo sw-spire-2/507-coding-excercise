@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-10-24T16:14:26.544327",
+  "seed": 507,
+  "refit_metric": "f1",
+  "best_params": {
+    "svc__C": 0.001,
+    "svc__class_weight": null,
+    "svc__kernel": "linear"
+  },
+  "best_cv_score": 0.9996661101836395,
+  "test_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "class_counts": {
+    "dataset": "5D-data-for-linear-classification.csv",
+    "class_counts_total": {
+      "0": 2000,
+      "1": 1999
+    },
+    "class_counts_train": {
+      "0": 1500,
+      "1": 1499
+    },
+    "class_counts_test": {
+      "0": 500,
+      "1": 500
+    }
+  },
+  "scorer_keys": [
+    "accuracy",
+    "precision",
+    "recall",
+    "f1",
+    "roc_auc"
+  ],
+  "n_splits": 5
+}

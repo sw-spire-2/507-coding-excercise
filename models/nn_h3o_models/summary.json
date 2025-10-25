@@ -1,0 +1,98 @@
+{
+  "60": {
+    "best_params": {
+      "hidden_layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "l2_weight": 0.0,
+      "dropout": 0.0,
+      "lr": 0.001,
+      "batch_size": 128,
+      "patience": 100
+    },
+    "nn_training": {
+      "best_val_loss": 0.36673009395599365,
+      "epochs_trained": 746
+    },
+    "val_RMSE": 0.013471051788633866,
+    "val_r2": 0.6464776241470582,
+    "test_RMSE": 0.013922342990987912,
+    "test_r2": 0.6182368837011051,
+    "total_fit_time_sec": 8.545959949493408,
+    "predict_time_sec": 0.08222794532775879
+  },
+  "600": {
+    "best_params": {
+      "hidden_layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "l2_weight": 0.0,
+      "dropout": 0.0,
+      "lr": 0.001,
+      "batch_size": 128,
+      "patience": 100
+    },
+    "nn_training": {
+      "best_val_loss": 0.017368270084261894,
+      "epochs_trained": 909
+    },
+    "val_RMSE": 0.002973152340649904,
+    "val_r2": 0.9827794023140562,
+    "test_RMSE": 0.0031026134765245526,
+    "test_r2": 0.9810405969759538,
+    "total_fit_time_sec": 12.110810995101929,
+    "predict_time_sec": 0.06305503845214844
+  },
+  "1000": {
+    "best_params": {
+      "hidden_layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "l2_weight": 0.0,
+      "dropout": 0.0,
+      "lr": 0.001,
+      "batch_size": 128,
+      "patience": 100
+    },
+    "nn_training": {
+      "best_val_loss": 0.008146331645548344,
+      "epochs_trained": 1577
+    },
+    "val_RMSE": 0.0020381930815056674,
+    "val_r2": 0.9919070931457793,
+    "test_RMSE": 0.0023212398979587396,
+    "test_r2": 0.989387703806001,
+    "total_fit_time_sec": 22.985443115234375,
+    "predict_time_sec": 0.06443595886230469
+  },
+  "2000": {
+    "best_params": {
+      "hidden_layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "l2_weight": 0.0,
+      "dropout": 0.0,
+      "lr": 0.001,
+      "batch_size": 128,
+      "patience": 100
+    },
+    "nn_training": {
+      "best_val_loss": 0.005356311798095703,
+      "epochs_trained": 811
+    },
+    "val_RMSE": 0.0016598153693868423,
+    "val_r2": 0.9946329769664766,
+    "test_RMSE": 0.0016835195289577618,
+    "test_r2": 0.9944177969893021,
+    "total_fit_time_sec": 15.349547147750854,
+    "predict_time_sec": 0.06738519668579102
+  }
+}

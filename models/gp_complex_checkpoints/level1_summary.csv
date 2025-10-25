@@ -1,0 +1,6 @@
+Level,Kernel,Params,LML,BIC,RMSE,R2,Optimized Kernel
+1,L1: (RQ) + RBF,5,1407.1597526061792,-2779.7807288174477,0.000929724103576634,0.9983336651169966,"94.9**2 * RationalQuadratic(alpha=0.128, length_scale=25.3) + RBF(length_scale=12.8) + WhiteKernel(noise_level=0.00083)"
+1,L1: (RQ) + RQ,6,1408.9691499508945,-2776.491768227896,0.0009153101312805973,0.9983849326260824,"100**2 * RationalQuadratic(alpha=0.432, length_scale=17.4) + RationalQuadratic(alpha=1.03e-05, length_scale=932) + WhiteKernel(noise_level=0.000804)"
+1,L1: (RQ) + MAT,5,1410.7409065397337,-2786.943036684557,0.0009250829839860478,0.9983502600541159,"100**2 * RationalQuadratic(alpha=0.37, length_scale=18.1) + Matern(length_scale=393, nu=1.5) + WhiteKernel(noise_level=0.000702)"
+1,L1: (RQ) * LIN,5,1407.65049865043,-2780.7622209059496,0.0009301236014100166,0.9983322327776687,"3.66**2 * RationalQuadratic(alpha=0.0602, length_scale=41.8) * DotProduct(sigma_0=69.4) + WhiteKernel(noise_level=0.000844)"
+1,L1: (RQ) * RBF,5,1405.2720787959038,-2776.005381196897,0.0009438107843553127,0.9982827877575875,"100**2 * RationalQuadratic(alpha=0.283, length_scale=19.2) * RBF(length_scale=5.57e+03) + WhiteKernel(noise_level=0.000844)"
