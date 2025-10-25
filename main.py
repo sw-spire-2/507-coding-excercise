@@ -306,5 +306,4 @@ def exec5_plot():
     plot_gp_complexity(selected_models, "Params", save_dir)
 
 
-if __name__ == "__main__":
-    exec3_plot()
+#if __name__ == "__main__":

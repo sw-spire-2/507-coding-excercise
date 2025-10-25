@@ -7,6 +7,7 @@ import numpy as np
 def _to_int_dict(d):
     return {int(k): int(v) for k, v in d.items()} if isinstance(d, dict) else {}
 
+
 def plot_gp_complexity(selected_models: str | Path, x_axis: str = "Params", save_dir: str | Path | None = None):
     if x_axis in selected_models.columns:
         selected_models = selected_models.sort_values(x_axis, ascending=True)
@@ -132,6 +133,7 @@ def _load_summary_json(summary_path):
     rmse = np.array([v["test_RMSE"] for _, v in items], dtype=float)
     fit_time = np.array([v.get("total_fit_time_sec", np.nan) for _, v in items], dtype=float)
     return n, rmse, fit_time
+
 
 def plot_compare_krr_nn(krr_summary_path: str | Path, nn_summary_path: str | Path, save_dir: str | Path | None = None, krr_label: str = "KRR (RBF)", nn_label: str = "NN (MLP)",):
     krr_summary_path = Path(krr_summary_path)
